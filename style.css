@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+body {
+    background-color: darkgreen;
+
+}
+
+.container {
+    position: relative;
+    left: 20%;
+    margin-top: 20%;
+}
+
+.containerBlackKeys {
+    position: relative;
+    left: 75px;
+    margin-top: -19.2%;
+}
+
+#KeyE {
+    position: relative;
+    margin-left: 50px;
+}
+
+#KeyT {
+    position: relative;
+    margin-left: 160px;
+}
+
+#KeyY {
+    position: relative;
+    margin-left: 50px;
+}
+
+#KeyU {
+    position: relative;
+    margin-left: 50px;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 250px;
+    margin-left: -3px;
+    border: outset 5px;
+    z-index: -1;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    border: outset 4px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    color: white;
+}
