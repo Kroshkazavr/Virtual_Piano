@@ -5,36 +5,15 @@ body {
 
 }
 
+h1, h2 {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
 .container {
     position: relative;
     left: 20%;
-    margin-top: 20%;
-}
-
-.containerBlackKeys {
-    position: relative;
-    left: 75px;
-    margin-top: -19.2%;
-}
-
-#KeyE {
-    position: relative;
-    margin-left: 50px;
-}
-
-#KeyT {
-    position: relative;
-    margin-left: 160px;
-}
-
-#KeyY {
-    position: relative;
-    margin-left: 50px;
-}
-
-#KeyU {
-    position: relative;
-    margin-left: 50px;
+    margin-top: 13%;
 }
 
 .white-keys kbd {
@@ -59,3 +38,40 @@ body {
     font-family: 'Cinzel Decorative', cursive;
     color: white;
 }
+
+.containerBlackKeys {
+    position: relative;
+    left: 75px;
+    margin-top: -19.2%;
+}
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#KeyE {
+    position: relative;
+    margin-left: 50px;
+}
+
+#KeyT {
+    position: relative;
+    margin-left: 160px;
+}
+
+#KeyY {
+    position: relative;
+    margin-left: 50px;
+}
+
+#KeyU {
+    position: relative;
+    margin-left: 50px;
+}
+

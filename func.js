@@ -12,7 +12,7 @@ document.addEventListener("keydown", function (event) {
     } else if (event.code == "KeyH") {
         new Audio("sounds\\white_keys\\H.mp3").play();
     } else if (event.code == "KeyJ") {
-        new Audio("sounds\\white-keys\\J.mp3").play();
+        new Audio("sounds\\white_keys\\J.mp3").play();
     } else if (event.code == "KeyW") {
         new Audio("sounds\\black_keys\\W.mp3").play();
     } else if (event.code == "KeyE") {
@@ -27,3 +27,4 @@ document.addEventListener("keydown", function (event) {
         console.log("Wrong kye pressed.")
     }
 });
+
